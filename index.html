@@ -1,0 +1,213 @@
+<svg viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="600" y="30" font-size="28" font-weight="bold" text-anchor="middle">Purity Stream - Game Wireframe</text>
+  
+  <!-- ===== INTRO SCREEN ===== -->
+  <g id="intro-screen">
+    <!-- Container -->
+    <rect x="50" y="70" width="450" height="520" fill="white" stroke="#333" stroke-width="2" rx="10"/>
+    
+    <!-- Header -->
+    <rect x="50" y="70" width="450" height="60" fill="#f0f0f0" stroke="#333" stroke-width="1" rx="10"/>
+    <text x="275" y="105" font-size="18" font-weight="bold" text-anchor="middle">💧 Purity Stream 💧</text>
+    
+    <!-- Mission Text -->
+    <text x="275" y="130" font-size="12" text-anchor="middle" fill="#666">Collect clean water &amp; dodge pollution!</text>
+    
+    <!-- Icon -->
+    <circle cx="275" cy="180" r="30" fill="#e0f6ff" stroke="#667eea" stroke-width="2"/>
+    <text x="275" y="190" font-size="40" text-anchor="middle" dominant-baseline="middle">💧</text>
+    
+    <!-- Welcome Text -->
+    <text x="275" y="235" font-size="16" font-weight="bold" text-anchor="middle">Welcome to Purity Stream!</text>
+    <text x="60" y="260" font-size="11" text-anchor="start" fill="#666">Help bring clean water to communities in need</text>
+    <text x="60" y="275" font-size="11" text-anchor="start" fill="#666">by collecting water drops and avoiding pollution.</text>
+    
+    <!-- Instructions Section -->
+    <text x="275" y="310" font-size="13" font-weight="bold" text-anchor="middle">How to Play:</text>
+    <rect x="60" y="315" width="430" height="100" fill="#f9f9f9" stroke="#ccc" stroke-width="1" rx="5"/>
+    <text x="70" y="335" font-size="10" text-anchor="start">🎮 Arrow Keys or A/D to switch lanes</text>
+    <text x="70" y="350" font-size="10" text-anchor="start">💧 Collect Water Drops for points</text>
+    <text x="70" y="365" font-size="10" text-anchor="start">⚠️ Avoid Radioactive Waste (☢️) &amp; Plastic (🍼)</text>
+    <text x="70" y="380" font-size="10" text-anchor="start">🔥 Build combos for consecutive collections</text>
+    <text x="70" y="395" font-size="10" text-anchor="start">💨 Speed increases as you travel further</text>
+    <text x="70" y="410" font-size="10" text-anchor="start">🏆 Track your high score!</text>
+    
+    <!-- Play Button -->
+    <rect x="110" y="435" width="330" height="45" fill="#667eea" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="465" font-size="18" font-weight="bold" text-anchor="middle" fill="white">START PLAYING</text>
+    
+    <!-- Footer -->
+    <text x="275" y="510" font-size="10" text-anchor="middle" fill="#666">Supporting charity: water</text>
+    <text x="275" y="525" font-size="9" text-anchor="middle" fill="#0066cc" text-decoration="underline">charitywater.org</text>
+  </g>
+  
+  <!-- ===== GAMEPLAY SCREEN ===== -->
+  <g id="gameplay-screen">
+    <!-- Container -->
+    <rect x="550" y="70" width="450" height="520" fill="white" stroke="#333" stroke-width="2" rx="10"/>
+    
+    <!-- Header -->
+    <rect x="550" y="70" width="450" height="50" fill="#f0f0f0" stroke="#333" stroke-width="1" rx="10"/>
+    <text x="775" y="100" font-size="16" font-weight="bold" text-anchor="middle">💧 Purity Stream 💧</text>
+    
+    <!-- Game Area Background -->
+    <rect x="560" y="130" width="430" height="320" fill="#87ceeb" stroke="#333" stroke-width="2" rx="8"/>
+    
+    <!-- Road/Lane Divider Lines -->
+    <line x1="620" y1="130" x2="620" y2="450" stroke="#aaa" stroke-width="2" stroke-dasharray="10,10" opacity="0.5"/>
+    <line x1="720" y1="130" x2="720" y2="450" stroke="#aaa" stroke-width="2" stroke-dasharray="10,10" opacity="0.5"/>
+    <line x1="820" y1="130" x2="820" y2="450" stroke="#aaa" stroke-width="2" stroke-dasharray="10,10" opacity="0.5"/>
+    <line x1="920" y1="130" x2="920" y2="450" stroke="#aaa" stroke-width="2" stroke-dasharray="10,10" opacity="0.5"/>
+    
+    <!-- Game Lanes Label -->
+    <text x="570" y="155" font-size="9" fill="#666">Lane 1</text>
+    <text x="680" y="155" font-size="9" fill="#666">Lane 2</text>
+    <text x="790" y="155" fill="#666"text-anchor="middle" font-size="9">Lane 3</text>
+    
+    <!-- Road Markers/Dashes -->
+    <line x1="560" y1="180" x2="990" y2="180" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <line x1="560" y1="220" x2="990" y2="220" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <line x1="560" y1="260" x2="990" y2="260" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <line x1="560" y1="300" x2="990" y2="300" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <line x1="560" y1="340" x2="990" y2="340" stroke="#999" stroke-width="1" opacity="0.3"/>
+    <line x1="560" y1="380" x2="990" y2="380" stroke="#999" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Game Objects (examples) -->
+    <!-- Water Drop in Lane 1 -->
+    <circle cx="620" cy="160" r="8" fill="#4dd0e1" stroke="#0288d1" stroke-width="1"/>
+    <text x="620" y="165" font-size="10" text-anchor="middle" dominant-baseline="middle">💧</text>
+    
+    <!-- Toxic Waste in Lane 2 -->
+    <circle cx="720" cy="200" r="10" fill="#ff6b6b" stroke="#dd0000" stroke-width="1"/>
+    <text x="720" y="207" font-size="12" text-anchor="middle" dominant-baseline="middle">☢️</text>
+    
+    <!-- Plastic in Lane 3 -->
+    <circle cx="820" cy="240" r="10" fill="#8b6914" stroke="#5d4700" stroke-width="1"/>
+    <text x="820" y="247" font-size="12" text-anchor="middle" dominant-baseline="middle">🍼</text>
+    
+    <!-- Water Drop in Lane 2 -->
+    <circle cx="720" cy="280" r="8" fill="#4dd0e1" stroke="#0288d1" stroke-width="1"/>
+    <text x="720" y="285" font-size="10" text-anchor="middle" dominant-baseline="middle">💧</text>
+    
+    <!-- Player (bottom center) -->
+    <circle cx="720" cy="420" r="15" fill="#4dd0e1" stroke="#0288d1" stroke-width="2"/>
+    <text x="720" y="428" font-size="18" text-anchor="middle" dominant-baseline="middle">💧</text>
+    
+    <!-- UI Panel (Below game) -->
+    <rect x="560" y="460" width="430" height="80" fill="#f9f9f9" stroke="#ccc" stroke-width="1" rx="5"/>
+    <text x="570" y="480" font-size="11" fill="#333">Score: <tspan font-weight="bold">2,450</tspan></text>
+    <text x="680" y="480" font-size="11" fill="#333">Drops: <tspan font-weight="bold">15</tspan></text>
+    <text x="570" y="500" font-size="11" fill="#333">Distance: <tspan font-weight="bold">1250m</tspan></text>
+    <text x="680" y="500" font-size="11" fill="#333">Speed: <tspan font-weight="bold">3.5x</tspan></text>
+    <text x="570" y="520" font-size="11" fill="#333">Combo: <tspan font-weight="bold">5x</tspan></text>
+    <text x="680" y="520" font-size="11" fill="#333">Combo Timer: <tspan font-weight="bold">1.8s</tspan></text>
+    
+    <!-- Instructions Bar -->
+    <rect x="560" y="540" width="430" height="25" fill="#e3f2fd" stroke="#90caf9" stroke-width="1" rx="3"/>
+    <text x="775" y="557" font-size="9" text-anchor="middle">← → Arrow Keys or A/D to Change Lanes | Collect 💧 | Avoid ☢️ &amp; 🍼</text>
+  </g>
+  
+  <!-- ===== GAME OVER SCREEN ===== -->
+  <g id="gameover-screen">
+    <!-- Container -->
+    <rect x="50" y="620" width="450" height="380" fill="white" stroke="#333" stroke-width="2" rx="10"/>
+    
+    <!-- Header -->
+    <rect x="50" y="620" width="450" height="50" fill="#f0f0f0" stroke="#333" stroke-width="1" rx="10"/>
+    <text x="275" y="650" font-size="18" font-weight="bold" text-anchor="middle">🎮 Game Over!</text>
+    
+    <!-- Stats Section -->
+    <rect x="70" y="690" width="410" height="140" fill="#f9f9f9" stroke="#ccc" stroke-width="1" rx="5"/>
+    <text x="85" y="715" font-size="13" fill="#333">Final Score: <tspan font-weight="bold" fill="#667eea">3,850</tspan></text>
+    <text x="85" y="740" font-size="13" fill="#333">Distance: <tspan font-weight="bold" fill="#667eea">1,892m</tspan></text>
+    <text x="85" y="765" font-size="13" fill="#333">Drops Collected: <tspan font-weight="bold" fill="#667eea">27</tspan></text>
+    <text x="85" y="795" font-size="12" fill="#d4af37" font-weight="bold">🏆 New High Score! 🏆</text>
+    
+    <!-- Footer Text -->
+    <rect x="70" y="845" width="410" height="60" fill="#fffacd" stroke="#ffd700" stroke-width="1" rx="5"/>
+    <text x="275" y="865" font-size="11" text-anchor="middle" font-weight="bold">Every drop counts!</text>
+    <text x="85" y="885" font-size="10" fill="#333">Help charity: water provide clean drinking water</text>
+    <text x="85" y="900" font-size="10" fill="#333">to communities worldwide.</text>
+    <text x="275" y="920" font-size="10" text-anchor="middle" fill="#0066cc" text-decoration="underline">charitywater.org</text>
+    
+    <!-- Restart Button -->
+    <rect x="110" y="920" width="330" height="45" fill="#667eea" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="950" font-size="16" font-weight="bold" text-anchor="middle" fill="white">PLAY AGAIN</text>
+  </g>
+  
+  <!-- ===== HIGH-LEVEL FLOW DIAGRAM ===== -->
+  <g id="flow-diagram">
+    <!-- Title -->
+    <text x="600" y="1040" font-size="16" font-weight="bold" text-anchor="middle">Game Flow &amp; Components</text>
+    
+    <!-- Start -->
+    <rect x="200" y="1080" width="150" height="50" fill="#4CAF50" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="1110" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Load Game / Start</text>
+    
+    <!-- Arrow down -->
+    <line x1="275" y1="1130" x2="275" y2="1160" stroke="#333" stroke-width="2"/>
+    <polygon points="275,1170 270,1160 280,1160" fill="#333"/>
+    
+    <!-- Intro Screen -->
+    <rect x="170" y="1170" width="210" height="50" fill="#2196F3" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="1200" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Intro Screen / Instructions</text>
+    
+    <!-- Arrow down -->
+    <line x1="275" y1="1220" x2="275" y2="1250" stroke="#333" stroke-width="2"/>
+    <polygon points="275,1260 270,1250 280,1250" fill="#333"/>
+    
+    <!-- Game Active -->
+    <rect x="170" y="1260" width="210" height="50" fill="#FF9800" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="1285" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Gameplay Loop</text>
+    <text x="275" y="1303" font-size="10" text-anchor="middle" fill="white">(Collect drops, avoid obstacles)</text>
+    
+    <!-- Arrow down -->
+    <line x1="275" y1="1310" x2="275" y2="1340" stroke="#333" stroke-width="2"/>
+    <polygon points="275,1350 270,1340 280,1340" fill="#333"/>
+    
+    <!-- Components Section -->
+    <rect x="50" y="1060" width="120" height="280" fill="#f0f0f0" stroke="#999" stroke-width="1" rx="5"/>
+    <text x="110" y="1080" font-size="11" font-weight="bold" text-anchor="middle">Key Components</text>
+    <text x="60" y="1105" font-size="9">• 3 Lanes</text>
+    <text x="60" y="1125" font-size="9">• Player sprite</text>
+    <text x="60" y="1145" font-size="9">• Game objects</text>
+    <text x="60" y="1165" font-size="9">• Collision detect</text>
+    <text x="60" y="1185" font-size="9">• Score system</text>
+    <text x="60" y="1205" font-size="9">• Combo tracker</text>
+    <text x="60" y="1225" font-size="9">• Speed control</text>
+    <text x="60" y="1245" font-size="9">• Sound effects</text>
+    <text x="60" y="1265" font-size="9">• High score saving</text>
+    <text x="60" y="1285" font-size="9">• Game over screen</text>
+    <text x="60" y="1305" font-size="9">• Restart function</text>
+    <text x="60" y="1325" font-size="9">• Touch/keyboard</text>
+    
+    <!-- Game Objects Section -->
+    <rect x="1030" y="1060" width="150" height="280" fill="#f0f0f0" stroke="#999" stroke-width="1" rx="5"/>
+    <text x="1105" y="1080" font-size="11" font-weight="bold" text-anchor="middle">Game Objects</text>
+    <circle cx="1045" cy="1110" r="8" fill="#4dd0e1" stroke="#0288d1" stroke-width="1"/>
+    <text x="1065" y="1115" font-size="9">Water Drop (+10)</text>
+    <text x="1060" y="1130" font-size="8" fill="#666">Safe to collect</text>
+    
+    <circle cx="1045" cy="1160" r="10" fill="#ff6b6b" stroke="#dd0000" stroke-width="1"/>
+    <text x="1065" y="1165" font-size="9">Toxic Waste (-30)</text>
+    <text x="1060" y="1180" font-size="8" fill="#666">Avoid collision</text>
+    
+    <circle cx="1045" cy="1210" r="10" fill="#8b6914" stroke="#5d4700" stroke-width="1"/>
+    <text x="1065" y="1215" font-size="9">Plastic Bottle (-20)</text>
+    <text x="1060" y="1230" font-size="8" fill="#666">Avoid collision</text>
+    
+    <circle cx="1045" cy="1260" r="12" fill="#90EE90" stroke="#228B22" stroke-width="1"/>
+    <text x="1065" y="1265" font-size="9">Speed Boost (+2x)</text>
+    <text x="1060" y="1280" font-size="8" fill="#666">Temporary boost</text>
+    
+    <circle cx="1045" cy="1310" r="12" fill="#FFD700" stroke="#FF8C00" stroke-width="1"/>
+    <text x="1065" y="1315" font-size="9">Shield (+3 hits)</text>
+    <text x="1060" y="1330" font-size="8" fill="#666">Protection item</text>
+  </g>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <text x="50" y="1385" font-size="10" fill="#666">📱 Mobile-optimized gameplay • ⌨️ Keyboard controls • 📊 Real-time scoring • 🎮 Progressive difficulty</text>
+  </g>
+</svg>
